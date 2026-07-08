@@ -2,48 +2,58 @@
 <html lang="en-US">
 
 <head>
-    <title>Sample Page</title>
+    <title>Personal Portfolio</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 
-<style>
-    .pdf {
-        width: 100;
-        aspect-ratio: 4 / 3;
-    }
-    .pdf,
-    html,
-    body {
-        height: 100%;
-        margin: 0;
-        padding: 0;
-    }
-    h1,
-        h3 {
-            text-align: center;
-        }
-        h1 {
-            color: green;
-        }
-</style>
-
 <body>
-    <h4 style="text-align: left;">Andrew Jacobson</h4>
-
-    <h1 style="text-align: left; padding-left: 50px;">About Me</h1>
-        <p>
-            My name is Andrew Jacobson. I am Computer Science undergraduate at the University of Nebraska-Lincoln. 
-        </p>
-        <h2>Resume</h2>
-        <iframe class="pdf"
-                src="./Andrew_Jacobson_Resume_2026.pdf"
-                width="800"
-                height="500">
-        </iframe>
-        <h2>Social Links</h2>
-        <h2>Education</h2>
-        <h2>Personal Projects</h2>
-
+    <main>
+        <h3 style="text-align: left;">Andrew Jacobson</h3>
+            <p>Welcome to my Personal Portfolio website</p>
+            <p>Navigation Links</p>
+        <nav>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#social">Social Links</a></li>
+                <li><a href="#projects">Personal Projects</a></li>
+                <li><a href="#resume">Resume</a></li>
+            </ul>
+        </nav>
+        <h2 id="about">About Me</h2>
+            <p>
+                I am a current undergraduate at the Univeristy of Nebraska-Lincoln. My major is Computer Science and I plan to minor in AI.
+                I enjoy coding personal projects, working out, music and movies.
+            </p>
+        <h2 id="education">Education</h2>
+            <ul>
+                <li>Current: Undergraduate at University of Nebraska-Lincoln</li>
+                <li>Past: Associate degree of Science at Southeast Community College</li>
+                <li>Past: Highschool diploma at Holdrege Highschool</li>
+            </ul>
+        <h2 id="social">Social Links</h2>
+            <ul>
+                <li><a href="https://github.com/Ajaco998" target="_blank">Github</a></li>
+                <li><a href="https://leetcode.com/u/ugUs4C0ZWk/" target="_blank">LeetCode</a></li>
+                <li><a href="https://www.linkedin.com/in/andrew-jacobson-1605632b2" target="_blank">LinkedIn</a></li>
+            </ul>
+        <h2 id="projects">Personal Projects</h2>
+            <ul>
+                <li>
+                    Ubuntu Server (Linux)
+                </li>
+                <li>
+                    Row Reduction Calculator (WIP) -- <a href="https://github.com/Ajaco998/RowReducingCalculator.git" target="_blank">Github</a>
+                </li>
+                <li>
+                    Security CLI Tool (WIP) -- <a href="https://github.com/Ajaco998/SecurityToolCLI" target="_blank">Github</a>
+                </li>
+            </ul>
+        <!--
+        <h2 id="Resume">Resume</h2>
+            <a href=""></a>
+        -->
+    </main>
 </body>
 
 </html>
